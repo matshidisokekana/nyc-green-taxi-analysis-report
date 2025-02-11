@@ -62,7 +62,33 @@ This project uses a *flat-table approach* rather than a traditional star schema.
 - *Avoids complex joins* in Power BI, improving performance for *large datasets*.  
 - Suitable for *quick aggregations* and visual analysis.
 
+### *Insights and visualizations from the Power BI Dashboard *  
 
+The Power BI report provides key insights into *NYC Green Taxi trips in 2023*, focusing on trip distribution by borough and zone. Below are the main takeaways:  
+
+### *1. High Trip Volume in Key Boroughs*  
+- *Manhattan, Queens, and Brooklyn* show the *highest trip counts* (6.1K, 6.1K, and 5.4K trips, respectively).  
+- *Staten Island, EWR (Newark Airport), and Unknown zones* have significantly lower trip counts (<1K).  
+- This suggests that *most Green Taxi trips happen in central NYC areas, while trips to **outer zones are rare*.  
+
+### *2. Zone-Level Drop-Off Patterns*  
+- The *bar chart of "Count of LocationID by Zone"* shows that some zones (e.g., Crown Heights, Astoria, and JFK Airport) have much higher trip counts than others.  
+- This indicates *high passenger demand in specific areas, likely due to **residential, commercial, or transit hubs*.  
+
+### *3. Drop-off (DOLocationID) vs. Pickup (PULocationID) Counts*  
+- Some *drop-off counts (DOLocationID) exceed pickup counts (PULocationID)* in specific locations.  
+- Example:  
+  - *DOLocationID 41 (approx. 898K trips)* vs. *PULocationID 41 (1.3M trips)* → More pickups than drop-offs.  
+  - This suggests that certain locations are *major taxi hubs*, where people frequently get taxis but don’t return via taxi (e.g., airports, train stations).  
+
+### *4. Even Distribution of Drop-offs Across Boroughs*  
+- The *pie chart shows an even split (12.5%) across boroughs*, meaning no single borough dominates drop-off activity.  
+- However, some boroughs might have *more short-distance trips*, leading to a higher volume of drop-offs in localized areas.  
+
+### *5. Total Trip Counts*  
+- *Total Drop-offs: ~8.2 million*  
+- *Total Pickups: ~15.5 million*  
+- The gap suggests *many pickups are not necessarily matched with drop-offs in the same dataset*, which could be due to missing data, multiple trip segments, or different reporting methodologies.
 
 
 
