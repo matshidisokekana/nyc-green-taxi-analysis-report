@@ -1,4 +1,5 @@
 # nyc-green-taxi-analysis-report
+![](nyctaxi.jpg)
 
 ## *Introduction*  
 This Power BI project analyzes *NYC Green Taxi trips in 2023*, focusing on trip distribution across boroughs and zones. It provides insights into trip frequency, pickup and drop-off locations, and trends using interactive visualizations.  
@@ -111,7 +112,7 @@ The *NYC Green Taxi Trip Analysis 2023* provides valuable insights into *trip di
 ✅ *Enhance data accuracy and completeness*, particularly for missing or mismatched pickup/drop-off records.  
 ✅ *Consider demand-based pricing strategies* in zones with high trip activity to maximize revenue.
 
-![](visuals.png)
+![](thankyou.png)
 
 Thank you so much for following through
 
