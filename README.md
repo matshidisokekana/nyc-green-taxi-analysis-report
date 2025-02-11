@@ -111,7 +111,7 @@ The *NYC Green Taxi Trip Analysis 2023* provides valuable insights into *trip di
 ✅ *Enhance data accuracy and completeness*, particularly for missing or mismatched pickup/drop-off records.  
 ✅ *Consider demand-based pricing strategies* in zones with high trip activity to maximize revenue.
 
-![]()
+![](visuals.png)
 
 Thank you so much for following through
 
