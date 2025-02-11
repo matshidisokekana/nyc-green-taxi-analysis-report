@@ -92,7 +92,7 @@ The Power BI report provides key insights into *NYC Green Taxi trips in 2023*, f
 - *Total Drop-offs: ~8.2 million*  
 - *Total Pickups: ~15.5 million*  
 - The gap suggests *many pickups are not necessarily matched with drop-offs in the same dataset*, which could be due to missing data, multiple trip segments, or different reporting methodologies.
-
+![](visuals.png)
 ### *Conclusion & Recommendations*  
 
 #### *Conclusion:*  
