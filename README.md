@@ -43,7 +43,24 @@ The dataset is sourced from *Azure Databricks*, containing records on Green Taxi
    - Limiting data to the *top 10 locations* ensures better visualization performance.  
    - Reduces clutter in the reports, making insights more actionable.
 
+## *Modeling*  
+This project uses a *flat-table approach* rather than a traditional star schema. The dataset consists of *three main flat tables*:  
 
+1. *taxitype*:  
+   - Contains taxi descriptions and trip types.  
+   
+2. *taxizone*:  
+   - Maps *LocationID* to Boroughs and Zones.  
+   - Includes service zones for additional classification.  
+
+3. *tripsdata2023*:  
+   - Includes *pickup (PULocationID) and drop-off (DOLocationID) location details*.  
+   - VendorID to differentiate service providers.  
+
+### *Flat-Table Approach Justification*  
+- *Simplifies data integration* by keeping all relevant fields within a few tables.  
+- *Avoids complex joins* in Power BI, improving performance for *large datasets*.  
+- Suitable for *quick aggregations* and visual analysis.
 
 
 
