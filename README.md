@@ -15,10 +15,41 @@ This Power BI project analyzes *NYC Green Taxi trips in 2023*, focusing on trip 
 ✔ *Staten Island, EWR (Newark Airport), and unknown zones have the lowest trip counts. This could be due to limited Green Taxi availability, lower demand, or alternative transport options in these areas.*  
 
 ❓ *How well is the taxi service distributed across different boroughs?*  
-✔ *Drop-offs are evenly distributed across boroughs (each contributing about 12.5%), but pickup hotspots suggest that taxis are more concentrated in central NYC.*  
+✔ *Drop-offs are evenly distributed across boroughs (each contributing about 12.5%), but pickup hotspots suggest that taxis are more concentrated in central NYC.* 
 
-❓ *Are there opportunities to improve taxi operations based on trip patterns?*  
-✔ *Yes! By optimizing taxi availability in high-demand zones, addressing imbalances, and exploring underutilized areas like Staten Island, taxi services can improve efficiency and revenue.* 
+## *Skills Demonstrated*  
+- *Data Sourcing & Transformation* (Azure Databricks, Power BI)  
+- *Data Modeling* (Relational data connections)  
+- *Data Visualization* (Charts, tables, and maps for insights)  
+- *Power BI DAX & Measures* (Aggregations and calculations)
+   
+## *Data Sourcing*  
+The dataset is sourced from *Azure Databricks*, containing records on Green Taxi trips in NYC, including:  
+- *Trip locations* (Pickup & Drop-off Location IDs)  
+- *Borough & Zone mapping*  
+- *Taxi type classification*
+
+#### *Transformations Applied:*  
+1. *Filtering the Top 10 Locations:*  
+   - The dataset originally contained a large number of unique pickup and drop-off locations.  
+   - Applied a *Top 10 filter* on *PULocationID and DOLocationID* based on trip counts.  
+   - This helps in focusing on the most significant zones for analysis.  
+
+2. *Aggregation of Trip Counts:*  
+   - Calculated the *total number of trips* per pickup and drop-off location.  
+   - Ranked them to identify the *most frequently used locations*.  
+
+3. *Reducing Data Volume for Performance Optimization:*  
+   - Limiting data to the *top 10 locations* ensures better visualization performance.  
+   - Reduces clutter in the reports, making insights more actionable.
+
+
+
+
+
+
+
+
 
 
 
