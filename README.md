@@ -42,7 +42,10 @@ The dataset is sourced from *Azure Databricks*, containing records on Green Taxi
 3. *Reducing Data Volume for Performance Optimization:*  
    - Limiting data to the *top 10 locations* ensures better visualization performance.  
    - Reduces clutter in the reports, making insights more actionable.
-
+    
+  DROP LOCATION              |       PICK LOCATION  
+ :..........................:|:...................:
+ ![](drop.png)                      ![](pickup.png)
 ## *Modeling*  
 This project uses a *flat-table approach* rather than a traditional star schema. The dataset consists of *three main flat tables*:  
 
