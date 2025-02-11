@@ -3,7 +3,7 @@
 ## *Introduction*  
 This Power BI project analyzes *NYC Green Taxi trips in 2023*, focusing on trip distribution across boroughs and zones. It provides insights into trip frequency, pickup and drop-off locations, and trends using interactive visualizations.  
 
-### *Problem Statement (Q&A Format)*  
+### *Problem Statement *  
 
 ❓ *How can we identify the most popular pickup and drop-off locations for NYC Green Taxi trips?*  
 ✔ *By analyzing trip data, we found that Manhattan, Queens, and Brooklyn have the highest trip counts, with specific zones like Crown Heights, Astoria, and JFK Airport being key hotspots.*  
