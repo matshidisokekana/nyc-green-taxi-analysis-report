@@ -109,7 +109,11 @@ The *NYC Green Taxi Trip Analysis 2023* provides valuable insights into *trip di
 ✅ *Investigate areas with low pickup/drop-off counts* (Staten Island, EWR) for potential market expansion.  
 ✅ *Analyze pricing and trip durations* to assess whether certain locations are more profitable than others.  
 ✅ *Enhance data accuracy and completeness*, particularly for missing or mismatched pickup/drop-off records.  
-✅ *Consider demand-based pricing strategies* in zones with high trip activity to maximize revenue.  
+✅ *Consider demand-based pricing strategies* in zones with high trip activity to maximize revenue.
+
+![]()
+
+Thank you so much for following through
 
 
 
